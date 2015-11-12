@@ -69,7 +69,7 @@ var app = {
 	// Start scanning
 	scanCode: function()
 	{
-		cordova.plugins.barcodeScanner.scan(
+		com.phonegap.plugins.barcodescanner.scan(
 			function (result) {
 				var data = {
 					"text": result.text, 
